@@ -100,12 +100,24 @@ git clone https://github.com/Akashpawarsky
 
 #Configure the database in application.properties:
 
-spring.datasource.url=jdbc:postgresql://localhost:5432/restaurantdb
+spring.datasource.url=jdbc:postgresql://localhost:5432/restaurantdb  #change this driver acc.to your db
 spring.datasource.username=yourusername
 spring.datasource.password=yourpassword
 
 #Build and run the project:
 
 mvn spring-boot:run
+
+#Jpa will automatically create tables 
+#if you wanted to test then you need to inser menuitems name,image,path-to-image i.e.url to menu_items table
+
+# Dependency 
+spring boot 3.3.5
+Spring data jpa
+Postgresql driver
+spring web
+Thymeleaf 
+Lombok(optional)
+Spring dev tools (optional)
 
 
