@@ -4,7 +4,7 @@ Welcome to the Restaurant Order & Delivery System!
 # This project is a comprehensive solution for managing restaurant menus, processing customer orders, and handling user authentication and checkout functionalities. 
 # The system provides an intuitive interface for customers to browse the menu, add items to their cart, and proceed to payment seamlessly.
 
-#Features
+ ##Features
 
 User Features
 
